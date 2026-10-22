@@ -1,0 +1,26 @@
+# Ambientes virtuais
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets e dados volumosos (nunca versionar dados brutos)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.json
+!data/sample_*.csv
+
+# Modelos treinados e saídas pesadas
+*.pkl
+*.joblib
+*.h5
+
+# Chaves de API e arquivos de ambiente
+.env
